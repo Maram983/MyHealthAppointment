@@ -1,0 +1,8 @@
+## Copy this file to local.properties (same folder) and fill in your values.
+## Android Studio also writes sdk.dir here automatically.
+
+sdk.dir=C\:\\Users\\YOUR_WINDOWS_USERNAME\\AppData\\Local\\Android\\Sdk
+
+# From Supabase: Project Settings -> API
+SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
+SUPABASE_ANON_KEY=YOUR_ANON_PUBLIC_KEY

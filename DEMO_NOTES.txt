@@ -1,0 +1,30 @@
+MyHealth Appointment — demo and testing notes
+
+Demo needs Wi-Fi. Supabase must be reachable.
+
+Suggested 7–10 minute demo
+1. Welcome screen (Login / Register)
+2. Register a patient: name, phone, email, date of birth, password
+   - Show that no confirmation email is required
+3. Home: greeting, Book Appointment, My Appointments
+4. Departments: General Medicine, Cardiology, Dermatology, Pediatrics
+5. Pick a doctor (example: Dr. Khalid Al-Rashid) and show THAT doctor's free slots
+6. Enter a reason, confirm booking
+7. My Appointments: status badge, Reschedule, Cancel
+8. Open Supabase Table Editor and show the new rows
+
+Test checklist (do these and screenshot)
+[ ] Empty register fields -> error
+[ ] Invalid email -> error
+[ ] Passwords do not match -> error
+[ ] Register success -> Home (no email verification step)
+[ ] Wrong login password -> error
+[ ] Correct email + password -> Home
+[ ] Book a slot -> appointment appears
+[ ] Same slot cannot be booked twice
+[ ] Reschedule moves to a new free slot
+[ ] Cancel frees the slot and sets status cancelled
+
+Report screenshots
+- Every app screen: Welcome, Register, Login, Home, Departments, Book, My Appointments
+- Supabase Table Editor: all 5 tables with sample data
