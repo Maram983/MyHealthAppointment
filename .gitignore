@@ -8,6 +8,9 @@
 .externalNativeBuild
 .cxx
 app/build
+/supabase/
+/SETUP.txt
+/DEMO_NOTES.txt
 *.apk
 *.ap_
 *.aab
